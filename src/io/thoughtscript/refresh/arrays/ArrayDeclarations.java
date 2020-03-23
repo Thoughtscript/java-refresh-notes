@@ -10,13 +10,13 @@ public class ArrayDeclarations {
             System.out.println(b);
         }
 
-        //[0,0,...0]
+        //[0,0,...,0]
         int[] intArrayByDefaultValAndSpecifiedSize = new int[4];
         for (int b: intArrayByDefaultValAndSpecifiedSize) {
             System.out.println(b);
         }
 
-        //["","",...""]
+        //[null,null,...,null]
         String[] stringArrayByDefaultValAndSpecifiedSize = new String[5];
         for (String b: stringArrayByDefaultValAndSpecifiedSize) {
             System.out.println(b);
